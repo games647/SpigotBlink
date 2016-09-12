@@ -1,3 +1,5 @@
 # IntelliJ
 *.iml
 .idea/
+
+config.ini

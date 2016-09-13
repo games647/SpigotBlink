@@ -64,10 +64,10 @@ def main_loop(device, token, user_id):
         if unread_alert:
             device.fade_to_rgb(FADE_TIME, SPIGOT_RGB[0], SPIGOT_RGB[1], SPIGOT_RGB[2])
 
-            time.sleep(3)
+            time.sleep(1)
 
             # white
-            device.fade_to_rgb(FADE_TIME, 255, 255, 255)
+            device.fade_to_rgb(FADE_TIME, 0, 0, 0)
         else:
             time.sleep(UPDATE_INTERVAL)
 

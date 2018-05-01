@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-custom_fields: []
+custom_fields: [labels=bug]
 labels: [bug]
 
 ---

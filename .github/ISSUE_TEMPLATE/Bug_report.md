@@ -1,8 +1,7 @@
 ---
-name: Bug report
+name: Test
 about: Create a report to help us improve
-labels: bug
-custom_fields: []
+custom_fields: [test]
 
 ---
 
